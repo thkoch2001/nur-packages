@@ -32,4 +32,11 @@ python3Packages.buildPythonApplication rec {
     substituteInPlace pyproject.toml \
         --replace "Pillow==10.4.0" "Pillow>=10.4.0" \
     '';
+
+  meta = {
+    description = "generate Podcast like RSS feeds from youtube channels or other sites supported by yt-dlp";
+    homepage = "https://github.com/nbr23/ydl-podcast";
+    license = lib.licenses.mit;
+    mainProgram = "ydl-podcast";
+  };
 }
