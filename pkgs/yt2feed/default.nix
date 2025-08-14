@@ -29,7 +29,7 @@ python3Packages.buildPythonApplication rec {
   meta = {
     description = "Create podcast feeds from video channels via yt-dlp";
     homepage = "https://github.com/thkoch2001/yt2feed";
-    license = lib.licenses.gpl3;
+    license = lib.licenses.gpl3Plus;
     mainProgram = "yt2feed";
   };
 }
