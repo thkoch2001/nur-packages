@@ -13,7 +13,7 @@ python3Packages.buildPythonApplication rec {
     owner = "thkoch2001";
     repo = "${pname}";
     rev = "v${version}";
-    hash = " sha256-x1pB7GSb0cgCQ5goKGeUxRNE/tWfYbqa5hhNlR+Pits=";
+    hash = "sha256-x1pB7GSb0cgCQ5goKGeUxRNE/tWfYbqa5hhNlR+Pits=";
   };
 
   buildInputs = with python3Packages; [
